@@ -1,0 +1,29 @@
+.spell-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.sr-only {    
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
+
+.group-container {
+    margin-top: 10px;
+}
+
+.container {
+    border: 1px solid #434343;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;;
+}
+
+[for="MaterialDescription"] {
+    display: block;
+    margin-top: 10px;
+}
